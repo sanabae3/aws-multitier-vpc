@@ -1,0 +1,67 @@
+# ----------------------
+# Terraform files
+# ----------------------
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*.tfvars
+*.tfvars.json
+
+# Local Terraform directories
+.terraform/
+.terraform.lock.hcl
+
+# Sensitive Terraform files
+terraform.tfvars
+secrets.auto.tfvars
+
+# ----------------------
+# Environment / Secrets
+# ----------------------
+.env
+.envrc
+*.pem
+*.key
+*.crt
+*.pfx
+
+# AWS credentials
+.aws/
+credentials
+config
+
+# ----------------------
+# Editor & OS junk
+# ----------------------
+.vscode/
+.vscode/*
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Python (if you build tooling scripts)
+# ----------------------
+__pycache__/
+*.pyc
+
+# ----------------------
+# Node (if you add UI or scripts)
+# ----------------------
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+
+# ----------------------
+# Build outputs
+# ----------------------
+dist/
+build/
